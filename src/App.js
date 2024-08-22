@@ -3,6 +3,7 @@ import "./App.css";
 import { useScrollReveal } from "./useScrollReveal";
 
 import logo from "./logo.png";
+import astro from "./Astro.png";
 
 function App() {
   useScrollReveal(".text1", 400);
@@ -36,7 +37,7 @@ function App() {
       </nav>
       <div className="hero">
         <div className="hero-image">
-          <img src="https://via.placeholder.com/600x800" alt="Hero" />
+          <img src={astro} alt="Hero" />
         </div>
 
         <div className="hero-text">
@@ -97,7 +98,7 @@ function App() {
         <div class="footer-container">
           <div className="section contact-form">
             <h3>Contact Us</h3>
-            <form action="#" method="post">
+            <form action="" method="post">
               <input type="text" name="name" placeholder="Your Name" required />
               <input
                 type="email"
