@@ -6,6 +6,7 @@ import StarryBackground from "./starry";
 import logo from "./logo.png";
 import Plan from "./Plan";
 import Home from "./Home";
+import Contact from "./Contact";
 
 function App() {
   return (
@@ -55,15 +56,6 @@ function Footer() {
         <p>&copy; 4948 Asteraios. All rights reserved.</p>
       </div>
     </footer>
-  );
-}
-
-function Contact() {
-  return (
-    <div>
-      <h1>Contact Us</h1>
-      <p>This is the contact page.</p>
-    </div>
   );
 }
 

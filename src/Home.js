@@ -46,7 +46,6 @@ function Home() {
       </div>
 
       <section class="our-plan" id="2">
-        <h1>Our Plan</h1>
         <div class="card-container">
           <div class="card">
             <h3>Probe Landing</h3>
